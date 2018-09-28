@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "clientboilerplate-20180927141457-authRole",
+            "UnauthRoleArn": "arn:aws:iam::167457616767:role/clientboilerplate-20180927141457-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::167457616767:role/clientboilerplate-20180927141457-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "clientboilerplate-20180927141457-deployment",
+            "UnauthRoleName": "clientboilerplate-20180927141457-unauthRole",
+            "StackName": "clientboilerplate-20180927141457",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:167457616767:stack/clientboilerplate-20180927141457/a8529f60-c21c-11e8-9885-500c336f38ba"
+        }
+    }
+}

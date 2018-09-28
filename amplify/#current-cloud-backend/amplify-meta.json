@@ -1,0 +1,32 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "clientboilerplate-20180927141457-authRole",
+			"UnauthRoleArn": "arn:aws:iam::167457616767:role/clientboilerplate-20180927141457-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::167457616767:role/clientboilerplate-20180927141457-authRole",
+			"Region": "ap-southeast-1",
+			"DeploymentBucketName": "clientboilerplate-20180927141457-deployment",
+			"UnauthRoleName": "clientboilerplate-20180927141457-unauthRole",
+			"StackName": "clientboilerplate-20180927141457",
+			"StackId": "arn:aws:cloudformation:ap-southeast-1:167457616767:stack/clientboilerplate-20180927141457/a8529f60-c21c-11e8-9885-500c336f38ba"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/clientboilerplate-20180927141457-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2018-09-27T06:21:38.439Z",
+			"output": {
+				"S3BucketSecureURL": "https://clientboilerplate-20180927142021--hostingbucket.s3.amazonaws.com",
+				"WebsiteURL": "http://clientboilerplate-20180927142021--hostingbucket.s3-website-ap-southeast-1.amazonaws.com",
+				"Region": "ap-southeast-1",
+				"HostingBucketName": "clientboilerplate-20180927142021--hostingbucket"
+			},
+			"lastPushDirHash": "7DVTars5ixS3IsMd8g+O7DBk2H4="
+		}
+	}
+}
