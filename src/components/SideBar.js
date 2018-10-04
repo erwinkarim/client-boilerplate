@@ -30,17 +30,17 @@ const styles = theme => ({
 // list containing 'pages'/ modules for your app
 const moduleList = (
   <List component="nav">
-    <ListItem button>
+    <ListItem button component={Link} to="/module1">
       <ListItemIcon>
         <InboxIcon />
       </ListItemIcon>
-      <ListItemText primary="Inbox" />
+      <ListItemText primary="Module 1" />
     </ListItem>
-    <ListItem button>
+    <ListItem button component={Link} to="/module2">
       <ListItemIcon>
         <DraftsIcon />
       </ListItemIcon>
-      <ListItemText primary="Drafts" />
+      <ListItemText primary="Module 2" />
     </ListItem>
   </List>
 );
